@@ -1,6 +1,6 @@
 import re
 
-lines = list(open("/Users/michaeljohnson/Downloads/input.txt"))
+lines = list(open("input.txt"))
 total = 0
 for ind, line in enumerate(lines):
     if ind == 0:
